@@ -1,0 +1,66 @@
+{
+  "checkerboard_texture": "Checkerboard.png",
+  "default": "dark",
+  "colours": {
+    "light": {
+      "-problematic": "b30000ff",
+
+      "-primary-text": "000000ff",
+      "-secondary-text": "5a5c63ff",
+      "-muted-text": "646776ff",
+      "-foreground-border": "878787ff",
+
+      "-background-primary": "ffffffff",
+      "-background-secondary": "f8f9fbff",
+      "-background-hover": "efeff4ff",
+      "-background-hover--transparent": "efeff400",
+      "-background-border": "eeebeeff",
+      "-background-item": "cccf",
+
+      "-announcement-background": "000000dd",
+      "-announcement-text": "eeebeeff",
+
+      "-brand-primary": "2962ffff",
+      "-brand-content": "2a5adfff",
+
+      "-highlighted-background": "deff",
+
+      "-guilabel-background": "ddeeff80",
+      "-guilabel-border": "bedaf580",
+
+      "-highlight-on-target": "ffffccff",
+
+      "-admonition-background": "0000"
+    },
+    "dark": {
+      "-problematic": "ee5151ff",
+
+      "-primary-text": "ffffffcc",
+      "-secondary-text": "9ca0a5ff",
+      "-muted-text": "81868dff",
+      "-foreground-border": "666666ff",
+
+      "-background-primary": "131416ff",
+      "-background-secondary": "1a1c1eff",
+      "-background-hover": "1e2124ff",
+      "-background-hover--transparent": "1e212400",
+      "-background-border": "303335ff",
+      "-background-item": "444f",
+
+      "-announcement-background": "000000dd",
+      "-announcement-text": "eeebeeff",
+
+      "-brand-primary": "2b8ceeff",
+      "-brand-content": "368ce2ff",
+
+      "-highlighted-background": "083563ff",
+
+      "-guilabel-background": "08356380",
+      "-guilabel-border": "13395f80",
+
+      "-highlight-on-target": "333300ff",
+
+      "-admonition-background": "18181aff"
+    }
+  }
+}
