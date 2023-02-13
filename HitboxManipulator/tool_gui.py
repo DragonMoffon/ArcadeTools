@@ -1,7 +1,6 @@
 import arcade.gui as gui
 
 import widgets as gui_c
-from toolWindow import HitboxFrame
 
 
 import style
@@ -9,23 +8,24 @@ import style
 """
 ALL of the primary GUI used by the tool. Setup as a series of classes to split up functionality
 Tree:
-# BaseSlots
-    # Navigation Bar
-        # File
-        # Edit
-        # Tools
-        # Help
-    # Primary Tab
-        # Hit Box Info Line
-            # Current Hit Box Info
-            # Hit Box Selector
-        # Hit Box Line
-            # Hit Box Frame Renderer
-            # Hit Box Editor Tool Line
-                # Hit Box Editor Tools
-        # Sprite Picker Line
-            # Sprites
-    # Bottom Tab ( Filler )
+# Manager
+    # BaseSlots (Box Layout)
+        # Navigation Bar (Box Layout)
+            # File (Flat Button)
+            # Edit (Flat Button)
+            # Tools (Flat Button)
+            # Help (Flat Button)
+        # Primary Tab (Box Layout)
+            # Hit Box Info Line (Box Layout)
+                # Current Hit Box Info (Space)
+                # Hit Box Selector (Space)
+            # Hit Box Line (Box Layout)
+                # Hit Box Frame (Space)
+                # Hit Box Editor Tool Line (Box Layout)
+                    # Hit Box Editor Tools (List of Flat Buttons)
+            # Sprite Picker Line (Box Layout)
+                # Sprites (Box Layout)
+        # Bottom Tab (Space)
 """
 
 
@@ -83,8 +83,6 @@ class HitboxLine(gui_c.UIStackLayout):
 
         self.add(self._hitbox_tools, anchor="bottom")
         self.add(self._hitbox_frame, anchor="top")
-
-        self._hitbox_renderer = HitboxFrame(self._hitbox_frame)
 
 
 class SpritePickerLine(gui_c.UIStackLayout):
